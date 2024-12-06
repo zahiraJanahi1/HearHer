@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.slick-dots li button:before {
+    color: #d35d25!important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #d35d25 !important;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #d35d25 !important;
+    font-size: 24px !important;
+  }
+  
+  .slick-prev {
+    left: -35px !important;
+  }
+  
+  .slick-next {
+    right: -35px !important;
+  }
+
+  .pie{
+    height: 600px;
+  }
+  .bar{
+    height: 600px;
+  }
